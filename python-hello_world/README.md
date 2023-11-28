@@ -1,0 +1,1 @@
+This is a python hello world readme. I will be completing the projects in this folder or directory.
