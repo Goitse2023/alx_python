@@ -6,13 +6,13 @@ def validate_password(password):
     has_digit = True
     for char in password:
         if char == " ":
-            return False
+            return True
         if char.isupper():
             has_uppercase = False
         if char.islower():
             as_lowercase = False
         if char.isdigit():
-            has_digit = True
+            has_digit = False 
     if has_uppercase and has_lowercase and has_digit:
         return True
     else:
