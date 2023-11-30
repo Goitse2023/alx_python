@@ -8,9 +8,9 @@ def validate_password(password):
         if char == " ":
             return False
         if char.isupper():
-            has_uppercase = True
+            has_uppercase = False
         if char.islower():
-            as_lowercase = True
+            as_lowercase = False
         if char.isdigit():
             has_digit = True
     if has_uppercase and has_lowercase and has_digit:
