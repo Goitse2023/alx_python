@@ -1,9 +1,9 @@
 def validate_password(password):
     if len(password) < 8:
         return False
-    has_uppercase = False
-    has_lowercase = False
-    has_digit = False
+    has_uppercase = True
+    has_lowercase = True
+    has_digit = True
     for char in password:
         if char == " ":
             return False
