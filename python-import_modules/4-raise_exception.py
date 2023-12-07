@@ -4,5 +4,5 @@ def raise_exception():
     try:
         z = x + y
     except TypeError:
-        print("A type error occurred.")
+        print("Exception has been raised")
         raise
