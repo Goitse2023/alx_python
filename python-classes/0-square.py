@@ -10,5 +10,5 @@ class Square:
 
 # Example usage:
 if __name__ == "__main__":
-    my_square = Square(5)
+    my_square = Square(3)
     print(f"Size of the square: {my_square._Square__size}")
