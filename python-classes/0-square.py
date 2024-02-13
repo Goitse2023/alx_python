@@ -11,4 +11,15 @@ class Square:
 # Example usage:
 if __name__ == "__main__":
     my_square = Square(3)
-    print(f"Size of the square: {my_square._Square__size}")
+    print(f"Type of my_square: {type(my_square)}")
+    print(f"Attributes of my_square: {my_square.__dict__}")
+
+    try:
+        print(my_square.size)
+    except AttributeError as e:
+        print(e)
+
+    try:
+        print(my_square._Square__size)
+    except AttributeError as e:
+        print(e)
