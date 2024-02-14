@@ -19,18 +19,3 @@ class Square:
 my_square_1 = Square(3)
 print(f"{type(my_square_1)}")
 print(f"{my_square_1.__dict__}")
-
-
-try:
-    my_square_3 = Square("3")
-    print(f"Type of my_square_3: {type(my_square_3)}")
-    print(f"Attributes of my_square_3: {my_square_3.__dict__}")
-except Exception as e:
-    print(e)
-
-try:
-    my_square_4 = Square(-89)
-    print(f"Type of my_square_4: {type(my_square_4)}")
-    print(f"Attributes of my_square_4: {my_square_4.__dict__}")
-except Exception as e:
-    print(e)
